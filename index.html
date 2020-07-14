@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Get Prime numbers</h1>
+    <div class="container">
+        <p>Want to know every prime number between a certain range?<br> Just type the range..</p>
+        <div class="range">
+        <div class="startiing-point">
+            From<input type="number" id="start">
+        </div>
+        <div class="ending-range">
+            To<input type="number" id="end">
+        </div>
+        </div>
+        <div class="btn">
+            <button onclick="getPrimeNum()" type="submit">Get Numbers</button>
+        </div>
+        <div id="value"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: linear-gradient(to bottom red, yellow); */
+    background: linear-gradient(to right, #f7c5a8, #ff9a76, #f7c5a8);
+    
+}
+h1{
+    text-align: center;
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 50px;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+.container p {
+    margin-bottom: 30px;
+}
+.container .range{
+    margin: auto;
+    /* width: 40%; */
+    display: flex;
+    margin-bottom: 30px;
+}
+.container .value{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+.container input {
+    font-size: 25px;
+    margin: 10px;
+    width: 70%;
+    padding: 0 5px;
+}
+button{
+    font-size: 25px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 30px;
+}
+#value {
+    word-break: break-all;
+}
+@media screen and (max-width : 900px){
+    button{
+        width: 80%;
+    }
+}
